@@ -12,6 +12,8 @@ Proyek ini bertujuan untuk menerapkan dan memahami konsep:
 - Logging dan monitoring data sensor
 - Integrasi Python dengan layanan eksternal (Telegram API)
 
+---
+
 ## 🧠 Arsitektur Sistem
 ```text
 ESP32 + Sensor
@@ -31,6 +33,8 @@ Python Automation Script
 
 ```
 
+---
+
 ## Simulasi IoT
 Sebagai sistem utama untuk diotomatisasi, Pakai template [Wokwi](https://wokwi.com/projects/454270041562834945) ini
 ```text
@@ -43,6 +47,8 @@ Komponen utama:
 - LCD I2C
 ```
 
+---
+
 ## Setup Bot Telegram
 Untuk menerima notifikasi otomatis, silakan membuat bot Telegram melalui **@BotFather**.
 
@@ -53,6 +59,8 @@ Untuk menerima notifikasi otomatis, silakan membuat bot Telegram melalui **@BotF
 BOT_TOKEN=xxxxx:xxxxxxxxxxxxxxxxxxxx
 CHAT_ID=xxxxxxxxx
 ```
+
+---
 
 ## Cara Kerja Sistem
 1. ESP32 membaca data dari sensor, meliputi suhu, kelembaban, dan status lampu.
@@ -66,16 +74,20 @@ CHAT_ID=xxxxxxxxx
    - Menampilkan peringatan pada terminal
    - Mengirim notifikasi otomatis ke Telegram
 
+---
+
 ## Struktur Project
 ```text
 ppl-uas-monitoring-iot/
-│── automation.py          	# Script utama Python
-│── laporan_otomatisasi.csv	# Log data otomatis (generated)
-│── requirements.txt       	# Library Python
-│── .gitignore             	# Ignore file sensitif
-│── bot-tele.txt           	# Token Telegram (LOCAL ONLY)
-│── README.md              	# Dokumentasi
+│── automation.py          	    # Script utama Python
+│── laporan_otomatisasi.csv     # Log data otomatis (generated)
+│── requirements.txt       	    # Library Python
+│── .gitignore             	    # Ignore file sensitif
+│── bot-tele.txt           	    # Token Telegram (LOCAL ONLY)
+│── README.md              	    # Dokumentasi
 ```
+
+---
 
 ## Library yang Digunakan
 External Library
@@ -91,11 +103,15 @@ Built-in Python
 - `time`
 - `datetime`
 
+---
+
 ## Output Sistem
 - Real-time monitoring melalui terminal
 - Logging otomatis ke file CSV
 - Notifikasi Telegram saat kondisi bahaya
-- Sistem berjalan event-driven (bukan polling manual)
+- Sistem berjalan event-driven
+
+---
 
 © 2026
 UAS PPL – Monitoring IoT & Automation System
