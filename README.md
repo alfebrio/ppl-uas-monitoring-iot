@@ -1,11 +1,9 @@
 # UAS PPL – Monitoring & Otomatisasi IoT Berbasis MQTT
 
 ## Overview
-Repositori ini berisi **sistem monitoring dan otomatisasi IoT** berbasis **ESP32**  
-yang disimulasikan menggunakan **Wokwi**, dengan komunikasi data menggunakan **MQTT**  
-serta **notifikasi otomatis melalui Telegram**.
+Repositori ini berisi **sistem monitoring dan otomatisasi IoT** berbasis **ESP32** yang disimulasikan menggunakan **Wokwi**, dengan komunikasi data menggunakan **MQTT** serta **notifikasi otomatis melalui Telegram**.
 
-Proyek ini bertujuan untuk menerapkan dan memahami konsep:
+Project ini bertujuan untuk menerapkan dan memahami konsep:
 - Internet of Things (IoT)
 - Protokol komunikasi MQTT
 - Otomatisasi berbasis event
@@ -14,7 +12,7 @@ Proyek ini bertujuan untuk menerapkan dan memahami konsep:
 
 ---
 
-## 🧠 Arsitektur Sistem
+## Arsitektur Sistem
 ```text
 ESP32 + Sensor
  (DHT, PIR, RTC)
