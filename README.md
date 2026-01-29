@@ -32,8 +32,7 @@ Python Automation Script
 ```
 
 ## Simulasi IoT
-Sebagai sistem utama untuk diotomatisasi
-`[Wokwi](https://wokwi.com/projects/454270041562834945)`
+Sebagai sistem utama untuk diotomatisasi, Pakai template [Wokwi](https://wokwi.com/projects/454270041562834945) ini
 ```text
 Komponen utama:
 - ESP32
