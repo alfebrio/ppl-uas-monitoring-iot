@@ -15,20 +15,19 @@ Project ini bertujuan untuk menerapkan dan memahami konsep:
 ## Arsitektur Sistem
 ```text
 ESP32 + Sensor
- (DHT, PIR, RTC)
-        |
-        | publish (MQTT)
-        v
+(DHT, PIR, RTC)
+       |
+       | publish (MQTT)
+       v
 Broker MQTT (HiveMQ)
-        |
-        | subscribe
-        v
+       |
+       | subscribe
+       v
 Python Automation Script
-        |
-        |-- Analisis kondisi
-        |-- Penyimpanan data (CSV)
-        |-- Notifikasi Telegram
-
+       |
+       |-- Analisis kondisi
+       |-- Penyimpanan data (CSV)
+       |-- Notifikasi Telegram
 ```
 
 ---
