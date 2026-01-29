@@ -76,12 +76,12 @@ CHAT_ID=xxxxxxxxx
 ## Struktur Project
 ```text
 ppl-uas-monitoring-iot/
-│── automation.py          	    # Script utama Python
-│── laporan_otomatisasi.csv     # Log data otomatis (generated)
-│── requirements.txt       	    # Library Python
 │── .gitignore             	    # Ignore file sensitif
+│── automation.py          	    # Script utama Python
 │── bot-tele.txt           	    # Token Telegram (LOCAL ONLY)
+│── laporan_otomatisasi.csv     # Log data otomatis (generated)
 │── README.md              	    # Dokumentasi
+│── requirements.txt       	    # Library Python
 ```
 
 ---
