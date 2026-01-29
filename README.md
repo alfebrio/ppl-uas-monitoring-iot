@@ -1,6 +1,6 @@
 # UAS PPL – Monitoring & Otomatisasi IoT Berbasis MQTT
 
-## 📌 Overview
+## Overview
 Repositori ini berisi **sistem monitoring dan otomatisasi IoT** berbasis **ESP32**  
 yang disimulasikan menggunakan **Wokwi**, dengan komunikasi data menggunakan **MQTT**  
 serta **notifikasi otomatis melalui Telegram**.
@@ -11,8 +11,6 @@ Proyek ini bertujuan untuk menerapkan dan memahami konsep:
 - Otomatisasi berbasis event
 - Logging dan monitoring data sensor
 - Integrasi Python dengan layanan eksternal (Telegram API)
-
----
 
 ## 🧠 Arsitektur Sistem
 ```text
@@ -33,8 +31,6 @@ Python Automation Script
 
 ```
 
----
-
 ## Simulasi IoT
 Sebagai sistem utama untuk diotomatisasi
 [Wokwi](https://wokwi.com/projects/454270041562834945)
@@ -48,8 +44,6 @@ Komponen utama:
 - LCD I2C
 ```
 
----
-
 ## Setup Bot Telegram
 Untuk menerima notifikasi otomatis, silakan membuat bot Telegram melalui **@BotFather**.
 
@@ -60,8 +54,6 @@ Untuk menerima notifikasi otomatis, silakan membuat bot Telegram melalui **@BotF
 BOT_TOKEN=xxxxx:xxxxxxxxxxxxxxxxxxxx
 CHAT_ID=xxxxxxxxx
 ```
-
----
 
 ## Cara Kerja Sistem
 1. ESP32 membaca data dari sensor, meliputi suhu, kelembaban, dan status lampu.
@@ -75,8 +67,6 @@ CHAT_ID=xxxxxxxxx
    - Menampilkan peringatan pada terminal
    - Mengirim notifikasi otomatis ke Telegram
 
----
-
 ## Struktur Project
 ```text
 ppl-uas-monitoring-iot/
@@ -87,8 +77,6 @@ ppl-uas-monitoring-iot/
 │── bot-tele.txt           	# Token Telegram (LOCAL ONLY)
 │── README.md              	# Dokumentasi
 ```
-
----
 
 ## Library yang Digunakan
 External Library
@@ -104,15 +92,11 @@ Built-in Python
 - `time`
 - `datetime`
 
----
-
 ## Output Sistem
 - Real-time monitoring melalui terminal
 - Logging otomatis ke file CSV
 - Notifikasi Telegram saat kondisi bahaya
 - Sistem berjalan event-driven (bukan polling manual)
-
----
 
 © 2026
 UAS PPL – Monitoring IoT & Automation System
